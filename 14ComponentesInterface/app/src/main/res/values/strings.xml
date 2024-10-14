@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">1.4-ComponentesInterface</string>
+    <string name="btn_name">CLIQUE AQUI</string>
+    <string name="test_name">Valor de texto</string>
+</resources>
