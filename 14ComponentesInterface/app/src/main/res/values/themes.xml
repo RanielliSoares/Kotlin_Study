@@ -1,9 +1,29 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
     <style name="Base.Theme._14ComponentesInterface" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- CORES PRIMARIAS -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- COLOR ON PRIMARY SÃO OS TEXTOS QUE VÃO DENTRO DAS CORES PRIMARIAS -->
+
+        <!-- CORES SECUNDARIAS -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/secundaria_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- CORES CUSTOMIZADAS -->
+        <item name="android:windowBackground">@color/white</item>
+
     </style>
 
     <style name="Theme._14ComponentesInterface" parent="Base.Theme._14ComponentesInterface" />
+
+    <style name="caixaTexto" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/secundaria_variant</item>
+    </style>
 </resources>

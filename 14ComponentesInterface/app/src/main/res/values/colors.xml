@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#2F2D2D</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- CORES CUSTOMIZADAS PARA O TEMA-->
+    <color name="btn_name">#247CF3</color>
+    <color name="primaria">#E91E63</color>
+    <color name="primaria_variant">#A01341</color>
+
+
+    <color name="secundaria">#13A021</color>
+    <color name="secundaria_variant">#043513</color>
+
+
 </resources>

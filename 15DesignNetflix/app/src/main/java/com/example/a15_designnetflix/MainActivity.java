@@ -1,10 +1,6 @@
-package com.example.a14_componentesinterface;
+package com.example.a15_designnetflix;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,17 +20,5 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        Button botao = findViewById(R.id.btnClick);
-        EditText email = findViewById(R.id.editEmail);
-
-        botao.setOnClickListener(view ->{
-
-                String emailUsuario = email.getText().toString();
-                System.out.println(emailUsuario);
-        });
     }
-
-
-
 }
